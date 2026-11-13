@@ -21,7 +21,6 @@ that say honestly when something was not checked.
 
 - Local-first: data stays on my own hardware; secrets never leave it.
 - Plain rules before models; a model's output must cite evidence or it is dropped.
-- Everything that can fail silently gets a second, independent check.
 
 ## Stack
 
