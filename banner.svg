@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="inshikChoi - security intelligence and quant automation">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#16243d"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3ddc97"/><stop offset="1" stop-color="#4aa3ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <g stroke="#ffffff" stroke-opacity="0.05">
+    <path d="M0 80H1200M0 160H1200M0 240H1200"/><path d="M200 0V320M400 0V320M600 0V320M800 0V320M1000 0V320"/>
+  </g>
+  <!-- signal chart: many noisy points, a few rise above the threshold -->
+  <g fill="#4aa3ff" fill-opacity="0.35">
+    <circle cx="700" cy="230" r="3"/><circle cx="730" cy="215" r="3"/><circle cx="760" cy="240" r="3"/>
+    <circle cx="790" cy="225" r="3"/><circle cx="820" cy="245" r="3"/><circle cx="850" cy="220" r="3"/>
+    <circle cx="880" cy="235" r="3"/><circle cx="910" cy="210" r="3"/><circle cx="940" cy="238" r="3"/>
+    <circle cx="970" cy="226" r="3"/><circle cx="1000" cy="242" r="3"/><circle cx="1030" cy="218" r="3"/>
+    <circle cx="1060" cy="236" r="3"/><circle cx="1090" cy="228" r="3"/><circle cx="1120" cy="240" r="3"/>
+  </g>
+  <path d="M700 230 L760 240 L820 245 L880 235 L940 238 L1000 242 L1060 236 L1120 240" fill="none" stroke="#4aa3ff" stroke-opacity="0.25" stroke-width="1.5"/>
+  <line x1="680" y1="150" x2="1140" y2="150" stroke="#3ddc97" stroke-opacity="0.5" stroke-dasharray="6 6"/>
+  <g fill="#3ddc97"><circle cx="850" cy="96" r="7"/><circle cx="940" cy="70" r="9"/><circle cx="1040" cy="118" r="6"/></g>
+  <g stroke="#3ddc97" stroke-opacity="0.35"><path d="M850 96V150M940 70V150M1040 118V150"/></g>
+  <text x="680" y="140" fill="#3ddc97" fill-opacity="0.8" font-family="Consolas, monospace" font-size="13">threshold</text>
+  <!-- title -->
+  <text x="70" y="140" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="56" font-weight="700">inshikChoi</text>
+  <rect x="72" y="158" width="190" height="4" rx="2" fill="url(#line)"/>
+  <text x="72" y="204" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="24">Security intelligence &amp; quant automation</text>
+  <text x="72" y="240" fill="#8aa0bf" font-family="Consolas, monospace" font-size="16">local-first  ·  rules before models  ·  evidence or it is dropped</text>
+</svg>
